@@ -13,6 +13,5 @@ jobs:
 
       - name: Run a one-line script
         run: |
-          echo head_ref: ${{ github.head_ref }}
+          echo ref_name: ${{ GITHUB.REF_NAME }}
           echo SHA: ${{ github.sha }}
-          export
